@@ -8,6 +8,7 @@ module.exports = {
   "src_folders": [
     "src/test/ui_tests"// Where you are storing your Nightwatch e2e tests
   ],
+  "page_objects_path": "src/tests/page_objects",
   "output_folder": "./reports", // reports (test outcome) output by nightwatch
   "selenium": {
     "start_process": true, // tells nightwatch to start/stop the selenium process
@@ -15,7 +16,7 @@ module.exports = {
     "host": "127.0.0.1",
     "port": 4444, // standard selenium port
     "cli_args": {
-      "webdriver.chrome.driver" : chromedriver.path
+      "webdriver.chrome.driver" : "./src/drivers/chromedriver"
     }
   },
   "test_settings": {
@@ -27,8 +28,16 @@ module.exports = {
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
-      "desiredCapabilities": { // use Chrome as the default browser for tests
-        "browserName": "chrome"
+      "desiredCapabilities" : {
+        "browserName" : "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions" : {
+          "prefs" : {
+            "credentials_enable_service" : false,
+            "profile.password_manager_enabled" : false
+          }
+        }
       }
     },
     "chrome": {
@@ -38,7 +47,7 @@ module.exports = {
       }
     }
   }
-}
+};
 
 function padLeft (count) { // theregister.co.uk/2016/03/23/npm_left_pad_chaos/
   return count < 10 ? '0' + count : count.toString();
