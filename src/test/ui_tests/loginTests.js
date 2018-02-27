@@ -16,6 +16,7 @@ module.exports = {
       .assert.containsText('div.copyright span', 'Copyright 2018 Endgame')
       .assert.containsText('button[type=submit] span', 'Login')
   },
+
   'Login Takes Admin User To Dashboard': function(browser) {
     browser
       .setValue('input[name="endgameUsername"]', 'admin')
@@ -26,6 +27,7 @@ module.exports = {
       .waitForElementVisible('body', 1000)
       .assert.urlContains('dashboard')
   },
+
   'Dashboard Page Initial Render': function(browser) {
     browser
       .assert.containsText('span.highlight', 'Super Admin')
@@ -35,6 +37,7 @@ module.exports = {
       .assert.elementPresent('a[title~=investigations]')
       .assert.elementPresent('a[title~=administration]')
   },
+
   'Dashboard Page Link - Endpoints Work': function(browser) {
     browser
       .click('a[title~=endpoints]')
@@ -43,6 +46,7 @@ module.exports = {
       .waitForElementVisible('body', 1000)
       .assert.urlEquals('https://qa-smp.qa.eginternal.com/endpoints')
   },
+
   'Dashboard Page Link - Alerts Work': function(browser) {
     browser
       .click('a[title~=alerts]')
@@ -51,6 +55,7 @@ module.exports = {
       .waitForElementVisible('body', 1000)
       .assert.urlEquals('https://qa-smp.qa.eginternal.com/alerts')
   },
+
   'Dashboard Page Link - Investigations Work': function(browser) {
     browser
       .click('a[title~=investigations]')
@@ -59,12 +64,14 @@ module.exports = {
       .waitForElementVisible('body', 1000)
       .assert.urlEquals('https://qa-smp.qa.eginternal.com/investigations')
   },
+
   'Dashboard Page Link - Administration Works': function(browser) {
     browser
       .click('a[title~=administration]')
       .pause(1000)
-      .url('https://qa-smp.qa.eginternal.com/administration')
+      .url('https://qa-smp.qa.eginternal.com/admin/policies')
       .waitForElementVisible('body', 1000)
-      .assert.urlEquals('https://qa-smp.qa.eginternal.com/administration')
-  },
+      .assert.urlEquals('https://qa-smp.qa.eginternal.com/admin/policies')
+  }
+
 };

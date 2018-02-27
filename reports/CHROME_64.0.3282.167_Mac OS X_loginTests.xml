@@ -5,9 +5,9 @@
 
   <testsuite name="loginTests"
     errors="0" failures="0" hostname="" id="" package="loginTests" skipped="0"
-    tests="7" time="15.22" timestamp="Tue, 27 Feb 2018 21:38:36 GMT">
+    tests="7" time="15.00" timestamp="Tue, 27 Feb 2018 22:08:27 GMT">
   
-    <testcase name="Login Page Initial Render" classname="loginTests" time="4.749" assertions="10">
+    <testcase name="Login Page Initial Render" classname="loginTests" time="4.383" assertions="10">
 
     
 
@@ -30,14 +30,14 @@
     
     </testcase>
   
-    <testcase name="Login Takes Admin User To Dashboard" classname="loginTests" time="2.659" assertions="2">
+    <testcase name="Login Takes Admin User To Dashboard" classname="loginTests" time="2.832" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Dashboard Page Initial Render" classname="loginTests" time="0.1140" assertions="6">
+    <testcase name="Dashboard Page Initial Render" classname="loginTests" time="0.1110" assertions="6">
 
     
 
@@ -52,28 +52,28 @@
     
     </testcase>
   
-    <testcase name="Dashboard Page Link - Endpoints Work" classname="loginTests" time="1.933" assertions="2">
+    <testcase name="Dashboard Page Link - Endpoints Work" classname="loginTests" time="1.936" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Dashboard Page Link - Alerts Work" classname="loginTests" time="1.989" assertions="2">
+    <testcase name="Dashboard Page Link - Alerts Work" classname="loginTests" time="1.947" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Dashboard Page Link - Investigations Work" classname="loginTests" time="1.904" assertions="2">
+    <testcase name="Dashboard Page Link - Investigations Work" classname="loginTests" time="1.923" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Dashboard Page Link - Administration Works" classname="loginTests" time="1.876" assertions="2">
+    <testcase name="Dashboard Page Link - Administration Works" classname="loginTests" time="1.872" assertions="2">
 
     
 
