@@ -16,7 +16,7 @@
         Error while running [Login Tests / Login Page Initial Render]:
 
   TypeError: browser.url(...).waitForElementVisible(...).assert.title(...).waitForElementVisible(...).expect.element(...).to.be.visible.waitForElementVisible is not a function
-    at Object.Login Page Initial Render (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/login_tests.js:11:8)
+    at Object.Login Page Initial Render (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:11:8)
     at Module.call (/Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/module.js:62:34)
     at /Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/testcase.js:70:29
     at _fulfilled (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:834:54)

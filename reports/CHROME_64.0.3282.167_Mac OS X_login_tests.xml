@@ -29,7 +29,7 @@
 
     
 
-      <failure message="Testing if value of &lt;span.highlight&gt; equals: &#34;Super Admin&#34;. Element or attribute could not be located.">    at Object.Login Page Initial Render (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/login_tests.js:21:15)
+      <failure message="Testing if value of &lt;span.highlight&gt; equals: &#34;Super Admin&#34;. Element or attribute could not be located.">    at Object.Login Page Initial Render (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:21:15)
     at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
 
     

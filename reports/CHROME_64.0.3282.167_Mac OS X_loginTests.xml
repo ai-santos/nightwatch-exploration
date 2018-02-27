@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="2">
+
+  <testsuite name="loginTests"
+    errors="3" failures="1" hostname="" id="" package="loginTests" skipped="0"
+    tests="2" time="7.525" timestamp="Tue, 27 Feb 2018 18:39:09 GMT">
+  
+    <testcase name="Login Page Initial Render" classname="loginTests" time="5.617" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login Takes Admin User To Dashboard" classname="loginTests" time="1.908" assertions="1">  <failure message="Timed out while waiting for element &lt;span .tooltip-title&gt; to be present for 1000 milliseconds.">    at Object.Login Takes Admin User To Dashboard (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:24:8)
+    at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;input[name=&#34;endgameUsername&#34;]&#34; using: css selector
+    at Object.Login Takes Admin User To Dashboard (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:21:8)
+    at Module.call (/Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:796:13)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:556:49
+    at runSingle (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:137:13)
+    at flush (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &#34;input[name=&#34;endgamePassword&#34;]&#34; using: css selector
+    at Object.Login Takes Admin User To Dashboard (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:22:8)
+    at Module.call (/Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:796:13)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:556:49
+    at runSingle (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:137:13)
+    at flush (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+ERROR: Unable to locate element: &#34;button[type=submit&#34; using: css selector
+    at Object.Login Takes Admin User To Dashboard (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/loginTests.js:23:8)
+    at Module.call (/Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:796:13)
+    at /Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:556:49
+    at runSingle (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:137:13)
+    at flush (/Users/asantos/Sandbox/nightwatch-practice/node_modules/q/q.js:125:13)
+    at process._tickCallback (internal/process/next_tick.js:150:11)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
