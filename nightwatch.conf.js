@@ -28,22 +28,8 @@ module.exports = {
       "globals": {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
-      "desiredCapabilities" : {
-        "browserName" : "chrome",
-        "javascriptEnabled" : true,
-        "acceptSslCerts" : true,
-        "chromeOptions" : {
-          "prefs" : {
-            "credentials_enable_service" : false,
-            "profile.password_manager_enabled" : false
-          }
-        }
-      }
-    },
-    "chrome": {
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true // turn off to test progressive enhancement
       }
     }
   }

@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b340b58f-709e-47e4-8df6-48253efcd493" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/drivers/chromedriver" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/page_objects/login_page.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/ui_tests/login_tests.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/utils.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/test/ui_tests/guineaPig_test.js" afterPath="$PROJECT_DIR$/dist/test/ui_tests/guineaPig_test.js" />
-      <change beforePath="$PROJECT_DIR$/guinea-pig-test.png" afterPath="$PROJECT_DIR$/guinea-pig-test.png" />
+      <change beforePath="$PROJECT_DIR$/dist/test/ui_tests/login_tests.js" afterPath="$PROJECT_DIR$/dist/test/ui_tests/login_tests.js" />
       <change beforePath="$PROJECT_DIR$/nightwatch.conf.js" afterPath="$PROJECT_DIR$/nightwatch.conf.js" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/reports/CHROME_64.0.3282.167_Mac OS X_guineaPig_test.xml" afterPath="$PROJECT_DIR$/reports/CHROME_64.0.3282.167_Mac OS X_guineaPig_test.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js" afterPath="$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js" />
+      <change beforePath="$PROJECT_DIR$/reports/CHROME_64.0.3282.167_Mac OS X_login_tests.xml" afterPath="$PROJECT_DIR$/reports/CHROME_64.0.3282.167_Mac OS X_login_tests.xml" />
+      <change beforePath="$PROJECT_DIR$/reports/guineaPig_test.xml" afterPath="$PROJECT_DIR$/reports/guineaPig_test.xml" />
+      <change beforePath="$PROJECT_DIR$/reports/login_tests.xml" afterPath="$PROJECT_DIR$/reports/login_tests.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/page_objects/login_page.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/ui_tests/login_tests.js" afterPath="$PROJECT_DIR$/src/test/ui_tests/login_tests.js" />
+      <change beforePath="$PROJECT_DIR$/src/test/utils.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,41 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nightwatch.conf.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nightwatch.conf.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nightwatch.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="165">
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_tests.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login_tests.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/ui_tests/login_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_page.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/page_objects/login_page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="6" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="345">
+              <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -72,8 +50,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="435">
+              <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -84,6 +62,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>browser</find>
+      <find>firefox</find>
+      <find>page_objects</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,11 +74,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/nightwatch.conf.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/utils.js" />
         <option value="$PROJECT_DIR$/src/test/page_objects/login_page.js" />
         <option value="$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/test/ui_tests/login_tests.js" />
         <option value="$PROJECT_DIR$/nightwatch.conf.js" />
       </list>
@@ -121,7 +101,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1263" />
+    <option name="width" value="1280" />
     <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -156,6 +136,12 @@
               <item name="nightwatch-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="nightwatch-practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nightwatch-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nightwatch-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nightwatch-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -221,18 +207,18 @@
       <updated>1519544145148</updated>
       <workItem from="1519544146485" duration="316000" />
       <workItem from="1519544701323" duration="2634000" />
-      <workItem from="1519664948678" duration="13507000" />
+      <workItem from="1519664948678" duration="22235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16457000" />
+    <option name="totallyTimeSpent" value="25185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1263" height="1418" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22302738" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22001588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -240,7 +226,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48526078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34240362" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="377" y="742" width="901" height="1418" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -274,9 +260,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -320,14 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -352,28 +328,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="435">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nightwatch.conf.js">
+    <entry file="file://$PROJECT_DIR$/src/test/ui_tests/guineaPig_test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ui_tests/login_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nightwatch.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>

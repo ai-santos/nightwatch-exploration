@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="0"
+            failures="1"
             tests="1">
 
   <testsuite name="login_tests"
-    errors="0" failures="0" hostname="" id="" package="login_tests" skipped="0"
-    tests="1" time="3.720" timestamp="Mon, 26 Feb 2018 21:18:27 GMT">
+    errors="0" failures="1" hostname="" id="" package="login_tests" skipped="0"
+    tests="1" time="6.640" timestamp="Mon, 26 Feb 2018 23:50:40 GMT">
   
-    <testcase name="Login Page Initial Render" classname="login_tests" time="3.720" assertions="9">
+    <testcase name="Login Page Initial Render" classname="login_tests" time="6.640" assertions="12">
 
     
 
@@ -24,6 +24,13 @@
     
 
     
+
+    
+
+    
+
+      <failure message="Testing if value of &lt;span.highlight&gt; equals: &#34;Super Admin&#34;. Element or attribute could not be located.">    at Object.Login Page Initial Render (/Users/asantos/Sandbox/nightwatch-practice/src/test/ui_tests/login_tests.js:21:15)
+    at process._tickCallback (internal/process/next_tick.js:150:11)</failure>
 
     
     </testcase>
