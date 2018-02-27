@@ -21,7 +21,7 @@ module.exports = {
   },
   "test_settings": {
     "default": {
-      // "launch_url": "https://qa-smp.qa.eginternal.com/login",
+      // "launch_url": "https://qa-smp.qa.eginternal.com",
       "screenshots": {
         "enabled": true, // if you want to keep screenshots
         "path": SCREENSHOT_PATH // save screenshots here
